@@ -1,0 +1,9 @@
+@keyframes blinkText {
+	0% { color: gray; }
+	100% { color: white; }
+}
+
+@keyframes blinkBg {
+	0% { background-color: gray; }
+	100% { background-color: white; }
+}

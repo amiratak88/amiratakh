@@ -1,0 +1,44 @@
+.skills {
+	width: 100vw;
+	height: 100vh;
+	position: relative;
+	background-color: #c8c7f5;
+
+	&__box {
+		position: absolute;
+		top: 10rem;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+
+	&__row {
+		display: flex;
+		align-items: center;
+		color: #000A61;
+
+		& > *:not(:last-child) { margin-right: 1rem; }
+	}
+
+	&__icon {
+		fill: #000A61;
+		width: 2rem;
+		height: 2rem;
+	}
+
+	&__title {
+		text-transform: uppercase;
+	}
+
+	&__triangle {
+		width: 2rem;
+		height: 2rem;
+		fill: #000A61;
+	}
+
+	&__img {
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+		height: 45%;
+	}
+}

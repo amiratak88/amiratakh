@@ -1,0 +1,41 @@
+.scroll {
+	position: absolute;
+	bottom: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 1rem;
+	z-index: 1;
+
+	& > *:not(:last-child) {
+		margin-bottom: 1rem;
+	}
+
+	&__text {
+		font-size: 1rem;
+		margin-bottom: 1.2rem;
+		color: gray;
+		animation: blinkText 1s linear 0s infinite alternate;
+	}
+
+	&__chevron {
+		display: flex;
+	}
+
+	&__line {
+		height: 1px;
+		width: 2rem;
+		background-color: gray;
+		animation: blinkBg 1s linear 0s infinite alternate;
+		
+		&:first-child {
+			transform: rotate(27deg);
+			transform-origin: right;
+		}
+
+		&:nth-child(2) {
+			transform: rotate(-27deg);
+			transform-origin: left;
+		}
+	}
+}
