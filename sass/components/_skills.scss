@@ -3,42 +3,87 @@
 	height: 100vh;
 	position: relative;
 	background-color: #c8c7f5;
+	background-image: url(img/code-bg-2.png);
 
-	&__box {
+	&__heading {
+		text-transform: uppercase;
+		font-family: "Nixie One", cursive;
+		font-size: 8rem;
 		position: absolute;
-		top: 10rem;
+		top: 11%;
 		left: 50%;
 		transform: translateX(-50%);
+		background-image: linear-gradient(
+			to bottom,
+			#000A61,
+			rgb(13, 215, 230)
+		);
+		-webkit-background-clip: text;
+		color: transparent;
+		white-space: nowrap;
 	}
 
-	&__row {
+	&__box {
+		@include absCenter;
+		top: 60%;
 		display: flex;
-		align-items: center;
-		color: #000A61;
+		width: 85vw;
+		flex-wrap: wrap;
+		justify-content: center;
 
-		& > *:not(:last-child) { margin-right: 1rem; }
+		& > *:not(:last-child) { margin-right: 2rem; }
+		& > * { margin-bottom: 2rem; }
 	}
 
-	&__icon {
-		fill: #000A61;
-		width: 2rem;
-		height: 2rem;
+	&__card {
+		background-color: #c8c7f5;
+		box-shadow: 0 1rem 4rem #000A61;
+		border-radius: 3px;
+		padding: 2rem;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+
+		& > *:not(:last-child) { margin-bottom: 2rem; }
 	}
 
 	&__title {
 		text-transform: uppercase;
 	}
 
-	&__triangle {
-		width: 2rem;
-		height: 2rem;
+	&__category-icon {
 		fill: #000A61;
+		width: 5rem;
+		height: 5rem;
 	}
 
-	&__img {
-		position: absolute;
-		bottom: 0;
-		width: 100%;
-		height: 45%;
+	&__hr-line {
+		height: 2px;
+		background-color: #000A61;
+		align-self: stretch;
+	}
+
+	&__skills {
+		display: flex;
+		align-items: center;
+		& > *:not(:last-child) { margin-right: 1rem; }
+	}
+
+	&__skill {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+
+		& > *:not(:last-child) { margin-bottom: .5rem; }
+	}
+
+	&__skill-icon {
+		height: 4rem;
+
+		&--fix { width: 4rem; }
+	}
+
+	&__skill-title {
+		font-size: 1.2rem;
 	}
 }

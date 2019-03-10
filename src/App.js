@@ -1,13 +1,17 @@
 import React, { Component, Fragment } from 'react'
 
-import Home from './components/Home'
+import Nav from './components/Nav'
+import Home from './components/home/Home'
+import Skills from './components/skills/Skills';
 
 
 class App extends Component {
 	render() {
 		return (
 			<Fragment>
+				<Nav />
 				<Home />
+				<Skills />
 			</Fragment>
 		)
 	}
