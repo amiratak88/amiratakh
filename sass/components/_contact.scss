@@ -1,0 +1,25 @@
+.contact {
+	background-color: #000A61;
+	width: 100vw;
+	color: #c8c7f5;
+	padding: 3rem;
+	display: flex;
+	justify-content: center;
+
+	& > *:not(:last-child) { margin-right: 5rem; }
+}
+
+.contact-way {
+	display: flex;
+	align-items: center;
+
+	&__img {
+		width: 3rem;
+		margin-right: .3rem;
+	}
+
+	&__link {
+		text-decoration: none;
+		color: inherit;
+	}
+}

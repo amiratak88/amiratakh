@@ -4,7 +4,7 @@ import Nav from './components/Nav'
 import Home from './components/home/Home'
 import Skills from './components/skills/Skills';
 import Projects from './components/projects/Projects';
-
+import Contact from './components/Contact';
 
 class App extends Component {
 	render() {
@@ -14,6 +14,7 @@ class App extends Component {
 				<Home />
 				<Skills />
 				<Projects />
+				<Contact />
 			</Fragment>
 		)
 	}

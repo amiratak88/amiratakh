@@ -227,6 +227,26 @@ button {
   .project__feature-item > * {
     margin-bottom: 1rem; }
 
+.contact {
+  background-color: #000A61;
+  width: 100vw;
+  color: #c8c7f5;
+  padding: 3rem;
+  display: flex;
+  justify-content: center; }
+  .contact > *:not(:last-child) {
+    margin-right: 5rem; }
+
+.contact-way {
+  display: flex;
+  align-items: center; }
+  .contact-way__img {
+    width: 3rem;
+    margin-right: .3rem; }
+  .contact-way__link {
+    text-decoration: none;
+    color: inherit; }
+
 .scroll {
   position: absolute;
   bottom: 0;
