@@ -5,118 +5,118 @@ const RubyIcon = ({ className }) => (
 	<svg className={className} viewBox="0 0 52 46">
 		<defs>
 			<linearGradient x1="84.75%" y1="97.7218197%" x2="58.254%" y2="61.3352826%" id="ruby-linearGradient-1">
-				<stop stop-color="#FB7655" offset="0%"></stop>
-				<stop stop-color="#FB7655" offset="0%"></stop>
-				<stop stop-color="#E42B1E" offset="41%"></stop>
-				<stop stop-color="#990000" offset="99%"></stop>
-				<stop stop-color="#990000" offset="100%"></stop>
+				<stop stopColor="#FB7655" offset="0%"></stop>
+				<stop stopColor="#FB7655" offset="0%"></stop>
+				<stop stopColor="#E42B1E" offset="41%"></stop>
+				<stop stopColor="#990000" offset="99%"></stop>
+				<stop stopColor="#990000" offset="100%"></stop>
 			</linearGradient>
 			<linearGradient x1="124.764148%" y1="60.89%" x2="-4.1277581%" y2="19.288%" id="ruby-linearGradient-2">
-				<stop stop-color="#871101" offset="0%"></stop>
-				<stop stop-color="#871101" offset="0%"></stop>
-				<stop stop-color="#911209" offset="99%"></stop>
-				<stop stop-color="#911209" offset="100%"></stop>
+				<stop stopColor="#871101" offset="0%"></stop>
+				<stop stopColor="#871101" offset="0%"></stop>
+				<stop stopColor="#911209" offset="99%"></stop>
+				<stop stopColor="#911209" offset="100%"></stop>
 			</linearGradient>
 			<linearGradient x1="75.774%" y1="180.682498%" x2="38.978%" y2="17.4534386%" id="ruby-linearGradient-3">
-				<stop stop-color="#871101" offset="0%"></stop>
-				<stop stop-color="#871101" offset="0%"></stop>
-				<stop stop-color="#911209" offset="99%"></stop>
-				<stop stop-color="#911209" offset="100%"></stop>
+				<stop stopColor="#871101" offset="0%"></stop>
+				<stop stopColor="#871101" offset="0%"></stop>
+				<stop stopColor="#911209" offset="99%"></stop>
+				<stop stopColor="#911209" offset="100%"></stop>
 			</linearGradient>
 			<linearGradient x1="50.0155523%" y1="7.234%" x2="71.362335%" y2="79.135%" id="ruby-linearGradient-4">
-				<stop stop-color="#FFFFFF" offset="0%"></stop>
-				<stop stop-color="#FFFFFF" offset="0%"></stop>
-				<stop stop-color="#E57252" offset="23%"></stop>
-				<stop stop-color="#DE3B20" offset="46%"></stop>
-				<stop stop-color="#A60003" offset="99%"></stop>
-				<stop stop-color="#A60003" offset="100%"></stop>
+				<stop stopColor="#FFFFFF" offset="0%"></stop>
+				<stop stopColor="#FFFFFF" offset="0%"></stop>
+				<stop stopColor="#E57252" offset="23%"></stop>
+				<stop stopColor="#DE3B20" offset="46%"></stop>
+				<stop stopColor="#A60003" offset="99%"></stop>
+				<stop stopColor="#A60003" offset="100%"></stop>
 			</linearGradient>
 			<linearGradient x1="46.0637996%" y1="24.9000579%" x2="49.9300414%" y2="74.6486921%" id="ruby-linearGradient-5">
-				<stop stop-color="#FFFFFF" offset="0%"></stop>
-				<stop stop-color="#FFFFFF" offset="0%"></stop>
-				<stop stop-color="#E4714E" offset="23%"></stop>
-				<stop stop-color="#BE1A0D" offset="56%"></stop>
-				<stop stop-color="#A80D00" offset="99%"></stop>
-				<stop stop-color="#A80D00" offset="100%"></stop>
+				<stop stopColor="#FFFFFF" offset="0%"></stop>
+				<stop stopColor="#FFFFFF" offset="0%"></stop>
+				<stop stopColor="#E4714E" offset="23%"></stop>
+				<stop stopColor="#BE1A0D" offset="56%"></stop>
+				<stop stopColor="#A80D00" offset="99%"></stop>
+				<stop stopColor="#A80D00" offset="100%"></stop>
 			</linearGradient>
 			<linearGradient x1="36.965%" y1="22.3220016%" x2="49.528%" y2="84.1715404%" id="ruby-linearGradient-6">
-				<stop stop-color="#FFFFFF" offset="0%"></stop>
-				<stop stop-color="#FFFFFF" offset="0%"></stop>
-				<stop stop-color="#E46342" offset="18%"></stop>
-				<stop stop-color="#C82410" offset="40%"></stop>
-				<stop stop-color="#A80D00" offset="99%"></stop>
-				<stop stop-color="#A80D00" offset="100%"></stop>
+				<stop stopColor="#FFFFFF" offset="0%"></stop>
+				<stop stopColor="#FFFFFF" offset="0%"></stop>
+				<stop stopColor="#E46342" offset="18%"></stop>
+				<stop stopColor="#C82410" offset="40%"></stop>
+				<stop stopColor="#A80D00" offset="99%"></stop>
+				<stop stopColor="#A80D00" offset="100%"></stop>
 			</linearGradient>
 			<linearGradient x1="13.609%" y1="59.0276684%" x2="85.764%" y2="-54.6164632%" id="ruby-linearGradient-7">
-				<stop stop-color="#FFFFFF" offset="0%"></stop>
-				<stop stop-color="#FFFFFF" offset="0%"></stop>
-				<stop stop-color="#C81F11" offset="54%"></stop>
-				<stop stop-color="#BF0905" offset="99%"></stop>
-				<stop stop-color="#BF0905" offset="100%"></stop>
+				<stop stopColor="#FFFFFF" offset="0%"></stop>
+				<stop stopColor="#FFFFFF" offset="0%"></stop>
+				<stop stopColor="#C81F11" offset="54%"></stop>
+				<stop stopColor="#BF0905" offset="99%"></stop>
+				<stop stopColor="#BF0905" offset="100%"></stop>
 			</linearGradient>
 			<linearGradient x1="16.1637073%" y1="21.135%" x2="51.1265659%" y2="79.056%" id="ruby-linearGradient-8">
-				<stop stop-color="#FFFFFF" offset="0%"></stop>
-				<stop stop-color="#FFFFFF" offset="0%"></stop>
-				<stop stop-color="#DE4024" offset="31%"></stop>
-				<stop stop-color="#BF190B" offset="99%"></stop>
-				<stop stop-color="#BF190B" offset="100%"></stop>
+				<stop stopColor="#FFFFFF" offset="0%"></stop>
+				<stop stopColor="#FFFFFF" offset="0%"></stop>
+				<stop stopColor="#DE4024" offset="31%"></stop>
+				<stop stopColor="#BF190B" offset="99%"></stop>
+				<stop stopColor="#BF190B" offset="100%"></stop>
 			</linearGradient>
 			<linearGradient x1="-20.667%" y1="105.98057%" x2="104.242%" y2="6.3645542%" id="ruby-linearGradient-9">
-				<stop stop-color="#BD0012" offset="0%"></stop>
-				<stop stop-color="#BD0012" offset="0%"></stop>
-				<stop stop-color="#FFFFFF" offset="7%"></stop>
-				<stop stop-color="#FFFFFF" offset="17%"></stop>
-				<stop stop-color="#C82F1C" offset="27%"></stop>
-				<stop stop-color="#820C01" offset="33%"></stop>
-				<stop stop-color="#A31601" offset="46%"></stop>
-				<stop stop-color="#B31301" offset="72%"></stop>
-				<stop stop-color="#E82609" offset="99%"></stop>
-				<stop stop-color="#E82609" offset="100%"></stop>
+				<stop stopColor="#BD0012" offset="0%"></stop>
+				<stop stopColor="#BD0012" offset="0%"></stop>
+				<stop stopColor="#FFFFFF" offset="7%"></stop>
+				<stop stopColor="#FFFFFF" offset="17%"></stop>
+				<stop stopColor="#C82F1C" offset="27%"></stop>
+				<stop stopColor="#820C01" offset="33%"></stop>
+				<stop stopColor="#A31601" offset="46%"></stop>
+				<stop stopColor="#B31301" offset="72%"></stop>
+				<stop stopColor="#E82609" offset="99%"></stop>
+				<stop stopColor="#E82609" offset="100%"></stop>
 			</linearGradient>
 			<linearGradient x1="58.792%" y1="61.0623136%" x2="11.964%" y2="50.0931257%" id="ruby-linearGradient-10">
-				<stop stop-color="#8C0C01" offset="0%"></stop>
-				<stop stop-color="#8C0C01" offset="0%"></stop>
-				<stop stop-color="#990C00" offset="54%"></stop>
-				<stop stop-color="#A80D0E" offset="99%"></stop>
-				<stop stop-color="#A80D0E" offset="100%"></stop>
+				<stop stopColor="#8C0C01" offset="0%"></stop>
+				<stop stopColor="#8C0C01" offset="0%"></stop>
+				<stop stopColor="#990C00" offset="54%"></stop>
+				<stop stopColor="#A80D0E" offset="99%"></stop>
+				<stop stopColor="#A80D0E" offset="100%"></stop>
 			</linearGradient>
 			<linearGradient x1="86.9951098%" y1="62.754%" x2="16.0420753%" y2="17.888%" id="ruby-linearGradient-11">
-				<stop stop-color="#7E110B" offset="0%"></stop>
-				<stop stop-color="#7E110B" offset="0%"></stop>
-				<stop stop-color="#9E0C00" offset="99%"></stop>
-				<stop stop-color="#9E0C00" offset="100%"></stop>
+				<stop stopColor="#7E110B" offset="0%"></stop>
+				<stop stopColor="#7E110B" offset="0%"></stop>
+				<stop stopColor="#9E0C00" offset="99%"></stop>
+				<stop stopColor="#9E0C00" offset="100%"></stop>
 			</linearGradient>
 			<linearGradient x1="95.1569493%" y1="66.3595571%" x2="60.363562%" y2="43.0172457%" id="ruby-linearGradient-12">
-				<stop stop-color="#79130D" offset="0%"></stop>
-				<stop stop-color="#79130D" offset="0%"></stop>
-				<stop stop-color="#9E120B" offset="99%"></stop>
-				<stop stop-color="#9E120B" offset="100%"></stop>
+				<stop stopColor="#79130D" offset="0%"></stop>
+				<stop stopColor="#79130D" offset="0%"></stop>
+				<stop stopColor="#9E120B" offset="99%"></stop>
+				<stop stopColor="#9E120B" offset="100%"></stop>
 			</linearGradient>
 			<radialGradient cx="32.001%" cy="40.21%" fx="32.001%" fy="40.21%" r="146.876333%" gradientTransform="translate(0.320010,0.402100),scale(0.473684,1.000000),translate(-0.320010,-0.402100)" id="radialGradient-13">
-				<stop stop-color="#A80D00" offset="0%"></stop>
-				<stop stop-color="#A80D00" offset="0%"></stop>
-				<stop stop-color="#7E0E08" offset="99%"></stop>
-				<stop stop-color="#7E0E08" offset="100%"></stop>
+				<stop stopColor="#A80D00" offset="0%"></stop>
+				<stop stopColor="#A80D00" offset="0%"></stop>
+				<stop stopColor="#7E0E08" offset="99%"></stop>
+				<stop stopColor="#7E0E08" offset="100%"></stop>
 			</radialGradient>
 			<radialGradient cx="13.549%" cy="40.86%" fx="13.549%" fy="40.86%" r="132.579%" gradientTransform="translate(0.135490,0.408600),scale(0.666667,1.000000),translate(-0.135490,-0.408600)" id="radialGradient-14">
-				<stop stop-color="#A30C00" offset="0%"></stop>
-				<stop stop-color="#A30C00" offset="0%"></stop>
-				<stop stop-color="#800E08" offset="99%"></stop>
-				<stop stop-color="#800E08" offset="100%"></stop>
+				<stop stopColor="#A30C00" offset="0%"></stop>
+				<stop stopColor="#A30C00" offset="0%"></stop>
+				<stop stopColor="#800E08" offset="99%"></stop>
+				<stop stopColor="#800E08" offset="100%"></stop>
 			</radialGradient>
 			<linearGradient x1="58.7685111%" y1="101.717%" x2="-12.587417%" y2="11.993%" id="ruby-linearGradient-15">
-				<stop stop-color="#8B2114" offset="0%"></stop>
-				<stop stop-color="#8B2114" offset="0%"></stop>
-				<stop stop-color="#9E100A" offset="43%"></stop>
-				<stop stop-color="#B3100C" offset="99%"></stop>
-				<stop stop-color="#B3100C" offset="100%"></stop>
+				<stop stopColor="#8B2114" offset="0%"></stop>
+				<stop stopColor="#8B2114" offset="0%"></stop>
+				<stop stopColor="#9E100A" offset="43%"></stop>
+				<stop stopColor="#B3100C" offset="99%"></stop>
+				<stop stopColor="#B3100C" offset="100%"></stop>
 			</linearGradient>
 			<linearGradient x1="30.87%" y1="39.7186159%" x2="92.471%" y2="86.1922426%" id="ruby-linearGradient-16">
-				<stop stop-color="#B31000" offset="0%"></stop>
-				<stop stop-color="#B31000" offset="0%"></stop>
-				<stop stop-color="#910F08" offset="44%"></stop>
-				<stop stop-color="#791C12" offset="99%"></stop>
-				<stop stop-color="#791C12" offset="100%"></stop>
+				<stop stopColor="#B31000" offset="0%"></stop>
+				<stop stopColor="#B31000" offset="0%"></stop>
+				<stop stopColor="#910F08" offset="44%"></stop>
+				<stop stopColor="#791C12" offset="99%"></stop>
+				<stop stopColor="#791C12" offset="100%"></stop>
 			</linearGradient>
 		</defs>
 		<polygon id="Path" fill="url(#ruby-linearGradient-1)" points="40.1175265 30.2333848 10 46 48.9967329 43.6668475 52 9 40.1173195 30.2332023"></polygon>
@@ -137,7 +137,7 @@ const RubyIcon = ({ className }) => (
 		<path d="M16,28 L24.4731511,42 C29.4833734,39.6730039 33.4068908,36.8378599 37,33.8009704 L16,28 Z" id="Path" fill="url(#radialGradient-14)"></path>
 		<path d="M4.11022523,32.0028552 L3,43.4467157 C5.09487742,45.9237919 7.97707794,46.1391148 11,45.9460488 C8.81283636,41.2339623 4.44349213,31.8120322 4.11022523,32.0028552 Z" id="Path" fill="url(#ruby-linearGradient-15)"></path>
 		<path d="M34,3.98424424 L51,6 C50.0925352,2.75161696 47.3063636,0.65530454 42.5572471,0 L34,3.98424424 L34,3.98424424 Z" id="Path" fill="url(#ruby-linearGradient-16)"></path>
-		<rect id="Rectangle" fill-opacity="0" fill="#000000" x="0" y="0" width="52" height="46"></rect>
+		<rect id="Rectangle" fillOpacity="0" fill="#000000" x="0" y="0" width="52" height="46"></rect>
 	</svg>
 )
 

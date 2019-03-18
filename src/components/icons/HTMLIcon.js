@@ -12,7 +12,7 @@ const HTMLIcon = ({ className }) => (
 		<polygon id="Path" fill="#000000" points="41.0002304 0 44.7410138 0 44.7410138 6.69467441 50 6.69467441 50 10 41 10 41 0"></polygon>
 		<polygon id="Path" fill="#FFFFFF" points="28.0002021 47.8713048 35.9463348 47.8713048 35.1971228 56.7828946 28 58.8513645 28 66 41.2290067 62.0960696 41.3259921 60.9351102 42.8426008 42.8451423 43 41 28.0002021 41"></polygon>
 		<polygon id="Path" fill="#FFFFFF" points="28 33.9829038 28 34 44.3924777 34 44.5284743 32.4267151 44.8378666 28.8779472 45 27 28 27 28 33.983123"></polygon>
-		<rect id="Rectangle" fill-opacity="0" fill="#000000" x="0" y="0" width="55" height="78"></rect>
+		<rect id="Rectangle" fillOpacity="0" fill="#000000" x="0" y="0" width="55" height="78"></rect>
 	</svg>
 )
 
