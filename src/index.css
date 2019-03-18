@@ -179,7 +179,10 @@ button {
     margin-top: 5rem;
     margin-bottom: 2rem; }
   .projects__box {
-    display: flex; }
+    display: flex;
+    flex-wrap: wrap; }
+    .projects__box > * {
+      margin-bottom: 4rem; }
     .projects__box > *:not(:last-child) {
       margin-right: 4rem; }
 

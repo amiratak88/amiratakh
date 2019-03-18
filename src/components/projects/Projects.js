@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 
 import EatupProject from "./EatupProject"
 import FlatUniProject from "./FlatUniProject"
+import HanafudaProject from "./HanafudaProject"
 
 class Projects extends Component {
 	render() {
@@ -11,6 +12,7 @@ class Projects extends Component {
 				<div className="projects__box">
 					<EatupProject />
 					<FlatUniProject />
+					<HanafudaProject />
 				</div>
 			</section>
 		)

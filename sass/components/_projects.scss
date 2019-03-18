@@ -18,7 +18,9 @@
 
 	&__box {
 		display: flex;
-
+		flex-wrap: wrap;
+	
+		& > * { margin-bottom: 4rem; }
 		& > *:not(:last-child) { margin-right: 4rem; }
 	}
 }
