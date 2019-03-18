@@ -13,6 +13,9 @@
 		margin-top: 7.5rem;
 		white-space: nowrap;
 		color: #000A61;
+
+		@media only screen and (max-width: $bp-tab-port) { font-size: 6rem; }
+		@media only screen and (max-width: $bp-phone) { font-size: 4rem; }
 	}
 
 	&__box {

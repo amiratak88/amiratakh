@@ -1,3 +1,9 @@
+// RESPONSIVE BREAKPOINTS
+$bp-big-desktop: 112.5em;
+$bp-tab-land: 75em;
+$bp-tab-port: 56.25em;
+$bp-phone: 37.5em;
+
 *,
 *::before,
 *::after {
@@ -8,7 +14,10 @@
 
 html {
 	font-size: 62.5%;
-	line-height: 1;
+
+	@media only screen and (max-width: $bp-tab-land) { font-size: 56.25%; }
+	@media only screen and (max-width: $bp-tab-port) { font-size: 50%; }
+	@media only screen and (min-width: $bp-big-desktop) { font-size: 75%; }
 }
 
 body {

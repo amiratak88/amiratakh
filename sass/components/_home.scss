@@ -11,9 +11,12 @@
 	&__heading {
 		font-family: "Nixie One", cursive;
 		font-size: 8rem;
-		margin-top: 20rem;
+		margin-top: 20vh;
 		margin-bottom: 2rem;
 		color: #000A61;
+
+		@media only screen and (max-width: $bp-tab-port) { font-size: 6rem; }		
+		@media only screen and (max-width: $bp-phone) { font-size: 4rem; }		
 	}
 
 	&__text {

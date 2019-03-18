@@ -7,8 +7,16 @@
   box-sizing: border-box; }
 
 html {
-  font-size: 62.5%;
-  line-height: 1; }
+  font-size: 62.5%; }
+  @media only screen and (max-width: 75em) {
+    html {
+      font-size: 56.25%; } }
+  @media only screen and (max-width: 56.25em) {
+    html {
+      font-size: 50%; } }
+  @media only screen and (min-width: 112.5em) {
+    html {
+      font-size: 75%; } }
 
 body {
   position: relative; }
@@ -27,7 +35,8 @@ body {
 
 body {
   font-family: "Montserrat", sans-serif;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
+  line-height: 1.2;
   color: #404040; }
 
 input,
@@ -82,9 +91,15 @@ button {
   .home__heading {
     font-family: "Nixie One", cursive;
     font-size: 8rem;
-    margin-top: 20rem;
+    margin-top: 20vh;
     margin-bottom: 2rem;
     color: #000A61; }
+    @media only screen and (max-width: 56.25em) {
+      .home__heading {
+        font-size: 6rem; } }
+    @media only screen and (max-width: 37.5em) {
+      .home__heading {
+        font-size: 4rem; } }
   .home__text {
     width: 50%; }
   .home__img {
@@ -109,6 +124,12 @@ button {
     margin-top: 7.5rem;
     white-space: nowrap;
     color: #000A61; }
+    @media only screen and (max-width: 56.25em) {
+      .skills__heading {
+        font-size: 6rem; } }
+    @media only screen and (max-width: 37.5em) {
+      .skills__heading {
+        font-size: 4rem; } }
   .skills__box {
     margin-top: 7.5rem;
     display: flex;
@@ -173,6 +194,12 @@ button {
     color: #000A61;
     margin-top: 5rem;
     margin-bottom: 2rem; }
+    @media only screen and (max-width: 56.25em) {
+      .projects__heading {
+        font-size: 6rem; } }
+    @media only screen and (max-width: 37.5em) {
+      .projects__heading {
+        font-size: 4rem; } }
   .projects__box {
     display: flex;
     flex-wrap: wrap; }
