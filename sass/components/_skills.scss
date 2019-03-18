@@ -1,29 +1,27 @@
 .skills {
 	width: 100vw;
-	min-height: 100vh;
-	position: relative;
 	background-color: #c8c7f5;
 	background-image: url(img/code-bg-2.png);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 
 	&__heading {
 		text-transform: uppercase;
 		font-family: "Nixie One", cursive;
 		font-size: 8rem;
-		position: absolute;
-		top: 11%;
-		left: 50%;
-		transform: translateX(-50%);
+		margin-top: 7.5rem;
 		white-space: nowrap;
 		color: #000A61;
 	}
 
 	&__box {
-		@include absCenter;
-		top: 60%;
+		margin-top: 7.5rem;
 		display: flex;
 		width: 85vw;
 		flex-wrap: wrap;
 		justify-content: center;
+		align-items: center;
 
 		& > *:not(:last-child) { margin-right: 2rem; }
 		& > * { margin-bottom: 2rem; }

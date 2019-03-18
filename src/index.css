@@ -97,30 +97,25 @@ button {
 
 .skills {
   width: 100vw;
-  min-height: 100vh;
-  position: relative;
   background-color: #c8c7f5;
-  background-image: url(img/code-bg-2.png); }
+  background-image: url(img/code-bg-2.png);
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
   .skills__heading {
     text-transform: uppercase;
     font-family: "Nixie One", cursive;
     font-size: 8rem;
-    position: absolute;
-    top: 11%;
-    left: 50%;
-    transform: translateX(-50%);
+    margin-top: 7.5rem;
     white-space: nowrap;
     color: #000A61; }
   .skills__box {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    top: 60%;
+    margin-top: 7.5rem;
     display: flex;
     width: 85vw;
     flex-wrap: wrap;
-    justify-content: center; }
+    justify-content: center;
+    align-items: center; }
     .skills__box > *:not(:last-child) {
       margin-right: 2rem; }
     .skills__box > * {
