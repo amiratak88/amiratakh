@@ -7,7 +7,7 @@ import HanafudaProject from "./HanafudaProject"
 class Projects extends Component {
 	render() {
 		return (
-			<section className="projects">
+			<section id="projects" className="projects">
 				<h1 className="projects__heading">technical projects</h1>
 				<div className="projects__box">
 					<EatupProject />
