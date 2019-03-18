@@ -180,6 +180,8 @@ button {
     margin-bottom: 2rem; }
   .projects__box {
     display: flex; }
+    .projects__box > *:not(:last-child) {
+      margin-right: 4rem; }
 
 .project__card {
   width: 40rem;
