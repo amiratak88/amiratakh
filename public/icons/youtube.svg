@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="13px" viewBox="0 0 18 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>ant-design:youtube</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Resume---Amoo-Majid-version" transform="translate(-398.000000, -183.000000)" fill="#000000" fill-rule="nonzero">
+            <g id="technical-projects" transform="translate(306.000000, 116.000000)">
+                <g id="eatup-project" transform="translate(7.000000, 47.000000)">
+                    <g id="heading">
+                        <g id="github-demo" transform="translate(63.000000, 0.000000)">
+                            <g id="demo" transform="translate(20.000000, 16.000000)">
+                                <g id="ant-design:youtube">
+                                    <path fill="#ff0000" d="M19.6243304,6.03073248 C19.415799,5.23045769 18.8096355,4.60505898 18.0332589,4.38917197 C16.6290179,4 11,4 11,4 C11,4 5.37098214,4 3.96674107,4.38710191 C3.18997895,4.60230232 2.58353424,5.22799119 2.37566964,6.02866242 C2,7.47770701 2,10.5 2,10.5 C2,10.5 2,13.522293 2.37566964,14.9692675 C2.58258929,15.7683121 3.19330357,16.3976115 3.96674107,16.610828 C5.37098214,17 11,17 11,17 C11,17 16.6290179,17 18.0332589,16.610828 C18.8087054,16.3976115 19.4174107,15.7683121 19.6243304,14.9692675 C20,13.522293 20,10.5 20,10.5 C20,10.5 20,7.47770701 19.6243304,6.03073248 Z M9.21205357,13.2738854 L9.21205357,7.72611465 L13.8727679,10.4792994 L9.21205357,13.2738854 Z" id="Shape"></path>
+                                    <rect id="Rectangle" fill-opacity="0" x="0" y="0" width="21" height="21"></rect>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

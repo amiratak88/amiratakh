@@ -84,9 +84,7 @@ button {
     font-size: 8rem;
     margin-top: 20rem;
     margin-bottom: 2rem;
-    background-image: linear-gradient(to bottom, #000A61, #0dd7e6);
-    -webkit-background-clip: text;
-    color: transparent; }
+    color: #000A61; }
   .home__text {
     width: 50%; }
   .home__img {
@@ -99,7 +97,7 @@ button {
 
 .skills {
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
   position: relative;
   background-color: #c8c7f5;
   background-image: url(img/code-bg-2.png); }
@@ -111,10 +109,8 @@ button {
     top: 11%;
     left: 50%;
     transform: translateX(-50%);
-    background-image: linear-gradient(to bottom, #000A61, #0dd7e6);
-    -webkit-background-clip: text;
-    color: transparent;
-    white-space: nowrap; }
+    white-space: nowrap;
+    color: #000A61; }
   .skills__box {
     position: absolute;
     left: 50%;
@@ -166,6 +162,65 @@ button {
       width: 4rem; }
   .skills__skill-title {
     font-size: 1.2rem; }
+
+.projects {
+  width: 100vw;
+  min-height: 100vh;
+  background-color: #c8c7f5;
+  background-image: url(img/code-bg-2.png);
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .projects__heading {
+    text-transform: uppercase;
+    font-family: "Nixie One", cursive;
+    font-size: 8rem;
+    color: #000A61;
+    margin-top: 5rem;
+    margin-bottom: 2rem; }
+  .projects__box {
+    display: flex; }
+
+.project__card {
+  width: 40rem;
+  padding: 2rem;
+  background-color: #c8c7f5;
+  box-shadow: 0 1rem 4rem #000A61;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column; }
+  .project__card > *:not(:last-child):not(:first-child) {
+    margin-bottom: 1rem; }
+
+.project__title {
+  align-self: center;
+  color: #000A61; }
+
+.project__actions > *:not(:last-child) {
+  margin-right: 1rem; }
+
+.project__actions img {
+  height: 2rem; }
+
+.project__img-box {
+  align-self: center;
+  width: 100%; }
+
+.project__img {
+  width: 100%; }
+
+.project__features-list {
+  list-style: none;
+  font-size: 1.6rem; }
+
+.project__feature-item {
+  display: flex;
+  align-items: flex-start; }
+  .project__feature-item > img {
+    width: 2rem;
+    margin-right: 1rem; }
+  .project__feature-item > * {
+    margin-bottom: 1rem; }
 
 .scroll {
   position: absolute;

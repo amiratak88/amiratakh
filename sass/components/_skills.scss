@@ -1,6 +1,6 @@
 .skills {
 	width: 100vw;
-	height: 100vh;
+	min-height: 100vh;
 	position: relative;
 	background-color: #c8c7f5;
 	background-image: url(img/code-bg-2.png);
@@ -13,14 +13,8 @@
 		top: 11%;
 		left: 50%;
 		transform: translateX(-50%);
-		background-image: linear-gradient(
-			to bottom,
-			#000A61,
-			rgb(13, 215, 230)
-		);
-		-webkit-background-clip: text;
-		color: transparent;
 		white-space: nowrap;
+		color: #000A61;
 	}
 
 	&__box {
