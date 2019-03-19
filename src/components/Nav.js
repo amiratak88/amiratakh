@@ -32,7 +32,7 @@ class Nav extends Component {
 					<a onClick={this.closeNav} className="nav__link" href="#skills">technical skills</a>
 					<a onClick={this.closeNav} className="nav__link" href="#projects">technical projects</a>
 					<a onClick={this.closeNav} className="nav__link" href="#contact">contact</a>
-					<a onClick={this.closeNav} target="_blank" href="resume-site-v1.pdf" className="nav__link nav__link--resume">
+					<a onClick={this.closeNav} target="_blank" href="resume-v4--site.pdf" className="nav__link nav__link--resume">
 						<p>resume</p>
 						<DownloadIcon className="nav__icon" />
 					</a>
