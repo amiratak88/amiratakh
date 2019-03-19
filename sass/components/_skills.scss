@@ -28,6 +28,17 @@
 
 		& > *:not(:last-child) { margin-right: 2rem; }
 		& > * { margin-bottom: 2rem; }
+		
+		@media only screen and (max-width: $bp-tab-land) {
+			width: 100vw;
+		}
+		
+		@media only screen and (max-width: $bp-tab-port) {
+			flex-direction: column;
+
+			& > * { margin: none; }
+			& > *:not(:last-child) { margin-bottom: 2rem; }
+		}
 	}
 
 	&__card {
@@ -61,6 +72,8 @@
 	&__skills {
 		display: flex;
 		align-items: center;
+    	justify-content: center;
+		flex-wrap: wrap;
 		& > *:not(:last-child) { margin-right: 1rem; }
 	}
 

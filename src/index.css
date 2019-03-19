@@ -217,6 +217,16 @@ button {
       margin-right: 2rem; }
     .skills__box > * {
       margin-bottom: 2rem; }
+    @media only screen and (max-width: 75em) {
+      .skills__box {
+        width: 100vw; } }
+    @media only screen and (max-width: 56.25em) {
+      .skills__box {
+        flex-direction: column; }
+        .skills__box > * {
+          margin: none; }
+        .skills__box > *:not(:last-child) {
+          margin-bottom: 2rem; } }
   .skills__card {
     background-color: #c8c7f5;
     box-shadow: 0 1rem 4rem #000A61;
@@ -239,7 +249,9 @@ button {
     align-self: stretch; }
   .skills__skills {
     display: flex;
-    align-items: center; }
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap; }
     .skills__skills > *:not(:last-child) {
       margin-right: 1rem; }
   .skills__skill {
