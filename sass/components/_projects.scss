@@ -22,9 +22,19 @@
 	&__box {
 		display: flex;
 		flex-wrap: wrap;
+		justify-content: center;
 	
 		& > * { margin-bottom: 4rem; }
-		& > *:not(:last-child) { margin-right: 4rem; }
+		& > *:not(:last-child) {
+			margin-right: 4rem;
+			@media only screen and (max-width: $bp-tab-port) {
+				margin: 0;
+				margin-bottom: 2rem;
+			}
+		}
+		@media only screen and (max-width: $bp-tab-port) {
+			flex-direction: column;
+		}
 	}
 }
 
@@ -40,6 +50,10 @@
 		flex-direction: column;
 
 		& > *:not(:last-child):not(:first-child) { margin-bottom: 1rem; }
+
+		@media only screen and (max-width: $bp-phone) {
+			width: 100%;
+		}
 	}
 
 	&__title {

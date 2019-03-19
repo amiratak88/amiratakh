@@ -11,7 +11,7 @@
 		font-family: "Nixie One", cursive;
 		font-size: 8rem;
 		margin-top: 7.5rem;
-		white-space: nowrap;
+		// white-space: nowrap;
 		color: #000A61;
 
 		@media only screen and (max-width: $bp-tab-port) { font-size: 6rem; }
@@ -26,18 +26,18 @@
 		justify-content: center;
 		align-items: center;
 
-		& > *:not(:last-child) { margin-right: 2rem; }
 		& > * { margin-bottom: 2rem; }
 		
-		@media only screen and (max-width: $bp-tab-land) {
-			width: 100vw;
+		& > *:not(:last-child) {
+			margin-right: 2rem;
+			@media only screen and (max-width: $bp-tab-port) {
+				margin: 0;
+				margin-bottom: 2rem;
+			}
 		}
-		
-		@media only screen and (max-width: $bp-tab-port) {
-			flex-direction: column;
 
-			& > * { margin: none; }
-			& > *:not(:last-child) { margin-bottom: 2rem; }
+		@media only screen and (max-width: $bp-tab-land) {
+			width: 100%;
 		}
 	}
 
@@ -51,6 +51,10 @@
 		align-items: center;
 
 		& > *:not(:last-child) { margin-bottom: 2rem; }
+
+		@media only screen and (max-width: $bp-phone) {
+			width: 100%;
+		}
 	}
 
 	&__title {

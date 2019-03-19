@@ -198,7 +198,6 @@ button {
     font-family: "Nixie One", cursive;
     font-size: 8rem;
     margin-top: 7.5rem;
-    white-space: nowrap;
     color: #000A61; }
     @media only screen and (max-width: 56.25em) {
       .skills__heading {
@@ -213,20 +212,17 @@ button {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center; }
-    .skills__box > *:not(:last-child) {
-      margin-right: 2rem; }
     .skills__box > * {
       margin-bottom: 2rem; }
+    .skills__box > *:not(:last-child) {
+      margin-right: 2rem; }
+      @media only screen and (max-width: 56.25em) {
+        .skills__box > *:not(:last-child) {
+          margin: 0;
+          margin-bottom: 2rem; } }
     @media only screen and (max-width: 75em) {
       .skills__box {
-        width: 100vw; } }
-    @media only screen and (max-width: 56.25em) {
-      .skills__box {
-        flex-direction: column; }
-        .skills__box > * {
-          margin: none; }
-        .skills__box > *:not(:last-child) {
-          margin-bottom: 2rem; } }
+        width: 100%; } }
   .skills__card {
     background-color: #c8c7f5;
     box-shadow: 0 1rem 4rem #000A61;
@@ -237,6 +233,9 @@ button {
     align-items: center; }
     .skills__card > *:not(:last-child) {
       margin-bottom: 2rem; }
+    @media only screen and (max-width: 37.5em) {
+      .skills__card {
+        width: 100%; } }
   .skills__title {
     text-transform: uppercase; }
   .skills__category-icon {
@@ -290,11 +289,19 @@ button {
         font-size: 4rem; } }
   .projects__box {
     display: flex;
-    flex-wrap: wrap; }
+    flex-wrap: wrap;
+    justify-content: center; }
     .projects__box > * {
       margin-bottom: 4rem; }
     .projects__box > *:not(:last-child) {
       margin-right: 4rem; }
+      @media only screen and (max-width: 56.25em) {
+        .projects__box > *:not(:last-child) {
+          margin: 0;
+          margin-bottom: 2rem; } }
+    @media only screen and (max-width: 56.25em) {
+      .projects__box {
+        flex-direction: column; } }
 
 .project__card {
   width: 40rem;
@@ -306,6 +313,9 @@ button {
   flex-direction: column; }
   .project__card > *:not(:last-child):not(:first-child) {
     margin-bottom: 1rem; }
+  @media only screen and (max-width: 37.5em) {
+    .project__card {
+      width: 100%; } }
 
 .project__title {
   align-self: center;
