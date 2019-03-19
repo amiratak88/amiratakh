@@ -5,8 +5,19 @@
 	padding: 3rem;
 	display: flex;
 	justify-content: center;
+	align-items: center;
 
-	& > *:not(:last-child) { margin-right: 5rem; }
+	& > *:not(:last-child) {
+		margin-right: 5rem;
+		@media only screen and (max-width: $bp-tab-port) {
+			margin: 0;
+			margin-bottom: 2rem;
+		}
+	}
+
+	@media only screen and (max-width: $bp-tab-port) {
+		flex-direction: column;
+	}
 }
 
 .contact-way {
@@ -15,7 +26,7 @@
 
 	&__img {
 		width: 3rem;
-		margin-right: .3rem;
+		margin-right: 1rem;
 	}
 
 	&__link {
